@@ -1,0 +1,10 @@
+html, body {
+	min-height: 100%;
+}
+
+body {
+	background-image: url("i-am-sorry-please-talk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}

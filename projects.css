@@ -1,0 +1,31 @@
+table, td {
+	border: solid 4px black;
+
+}
+
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	background-color: snow;
+	box-shadow: 5px 2px 5px darkgrey;
+
+}
+
+#col1 {
+	width: 40%;
+
+}
+
+#col2 {
+	width: 30%;
+}
+
+#col3 {
+	width: 30%;
+}
+
+td:first-child {
+	text-align: left;
+}

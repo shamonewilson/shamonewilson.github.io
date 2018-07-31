@@ -1,0 +1,71 @@
+html, body { 
+	min-height: 100%;
+}
+
+body {
+	background-color: purple;
+	font-family: 'Gaegu', cursive;
+	letter-spacing: 1.6px;
+	line-height: 1.6;
+}
+
+#page_title {
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: white;
+	font-size: 2em;
+	font-weight: bolder; 
+	border: black 5px solid; 
+	box-shadow: 12px 5px 5px darkgrey;
+	margin-top: 10px;
+}
+
+.top-nav-item {
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+img {									
+	border: black 3px solid ;
+	box-shadow: 10px 5px 5px darkgrey;
+	float: left;
+	width: 315px;
+	margin-right: 20px;
+	
+}
+
+.top-nav-item:hover {
+	color: grey;
+	border-bottom: 3px solid grey ;
+}
+
+#current_page {
+	border-bottom: 3px solid white;
+
+} 
+
+#page_content {
+	width: 85%;
+	margin: 20px auto;
+
+}
+
+
+
+#top-nav {
+	text-align: right;
+}
+
+#paragraphs {
+	font-size: 1.5em;
+}
+
+#Logo {
+	border: none;
+	box-shadow: none;
+	width: 200px;
+}
